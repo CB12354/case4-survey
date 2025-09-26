@@ -27,3 +27,4 @@ class StoredSurveyRecord(SurveySubmission):
     received_at: datetime
     ip: str
     user_agent: Optional[str]
+    submission_id: str
